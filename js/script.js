@@ -5,6 +5,7 @@ import forms from "./modules/forms";
 import changeModalState from './modules/changeModalState'
 import validateForm from './modules/validateForm'
 import timer from './modules/timer'
+import images from './modules/images'
 
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -19,7 +20,7 @@ window.addEventListener('DOMContentLoaded', () => {
     forms(modalState);
     validateForm(modalState);
     timer();
-
+    images();
 
 });
 
