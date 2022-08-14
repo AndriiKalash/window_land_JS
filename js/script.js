@@ -4,6 +4,7 @@ import tabs from "./modules/tabs";
 import forms from "./modules/forms";
 import changeModalState from './modules/changeModalState'
 import validateForm from './modules/validateForm'
+import timer from './modules/timer'
 
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -17,6 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
     tabs('.balcon_icons', '.balcon_icons_img', '.big_img > img', 'do_image_more', 'inline-block');
     forms(modalState);
     validateForm(modalState);
+    timer();
 
 
 });

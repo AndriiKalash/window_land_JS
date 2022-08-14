@@ -373,6 +373,16 @@
       "type": "aluminum",
       "profile": "Теплое",
       "id": 57
+    },
+    {
+      "user_name": "Andrey",
+      "user_phone": "77777",
+      "form": "1",
+      "width": "3",
+      "height": "3",
+      "profile": "Холодное",
+      "type": "plastic",
+      "id": 58
     }
   ]
 }
